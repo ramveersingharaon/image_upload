@@ -22,7 +22,7 @@ const App = () => {
   async function submitHandler() {
     try {
       console.log(about)
-      const { data } = await axios.post("/api/create", about);
+      const { data } = await axios.post("https://image-upload-2jbi.onrender.com/create", about);
       console.log(data)
     } catch (error) {
       console.log(error)
@@ -32,7 +32,7 @@ const App = () => {
 
   async function getUsers() {
     try {
-      const { data } = await axios.get("/api/user")
+      const { data } = await axios.get("https://image-upload-2jbi.onrender.com/user")
       setUser(data);
     } catch (error) {
       console.log(error)
