@@ -1,0 +1,28 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(black red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .form {
+  padding: 2rem;
+  border: 2px solid greenyellow;
+}
+.form fieldset {
+  padding: 2rem;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input {
+  border: 1px solid;
+  padding: 1rem;
+}
+button {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
